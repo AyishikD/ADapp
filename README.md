@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ADapp
+ADapp is a thread-like web application designed to facilitate discussions and interactions among users. It is built with modern technologies to provide a seamless and enjoyable user experience. It has seamless experience for mobile and PC and provides a good alternative.
+
+## Technologies Used
+- **Next.js**: A React framework for building server-rendered applications.
+
+- **Node.js**: A JavaScript runtime for building scalable network applications.
+
+- **MongoDB**: A NoSQL database for storing and managing data efficiently.
+  
+- **Clerk**: A developer-friendly authentication service for Next.js applications.
+
+- **UploadThing**: A powerful and flexible file upload solution for handling media uploads.
+
+- **Shadcn**: A UI component library for consistent and responsive design.
+
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+
+## Features
+- **Thread Creation**: Users can create threads to start discussions on various topics.
+
+- **User Authentication**: Clerk is integrated for secure and seamless user authentication.
+
+- **Media Uploads**: UploadThing enables users to share images and other media files within threads.
+
+- **Responsive Design**: Tailwind CSS ensures a responsive and visually appealing user interface.
+
+- **Community Engagement**: Build and engage with your community hassle free.
+
+## Prerequisites:
+-Account in clerk.
+
+-Account in uploadthing.
+
+-MongoDB cluster setup.
 
 ## Getting Started
+Clone the Repository:
 
-First, run the development server:
+```bash
+git clone https://github.com/your-username/ADapp.git
+```
+
+Install Dependencies:
+
+```bash
+cd ADapp
+npm install
+```
+Set Up Environment Variables:
+
+Create a .env file based on the provided .env.example and fill in the necessary values.
+
+Run the Application:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+The application will be accessible at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
+Contributions are welcome! Please follow our Contribution Guidelines.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
+This project is licensed under the [GPL 3.0 License](https://github.com/AyishikD/ADapp/blob/main/LICENSE).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
