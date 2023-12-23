@@ -4,8 +4,6 @@ import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
 import { fetchUser, getActivity } from "@/lib/actions/user.actions";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from "react";
 
 async function Page() {
   const user = await currentUser();
@@ -23,7 +21,7 @@ async function Page() {
       <section className='mt-10 flex flex-col gap-5'>
         {activity.length > 0 ? (
           <>
-            {activity.map((activity: { _id: Key | null | undefined; parentId: any; author: { image: string | StaticImport; name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; }; }) => (
+            {activity.map((activity) => (
               <Link key={activity._id} href={`/thread/${activity.parentId}`}>
                 <article className='activity-card'>
                   <Image
