@@ -27,6 +27,10 @@ ADapp is a thread-like web application designed to facilitate discussions and in
 
 - **Community Engagement**: Build and engage with your community hassle free.
 
+## DEMO:
+![image](https://github.com/AyishikD/ADapp/assets/99983449/5cb0d592-9a79-45ba-bbd3-14582271864a)
+
+
 ## Prerequisites:
 -Account in clerk.
 
