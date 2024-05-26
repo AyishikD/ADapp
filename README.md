@@ -1,5 +1,5 @@
 # ADapp
-ADapp is a thread-like web application designed to facilitate discussions and interactions among users. It is built with modern technologies to provide a seamless and enjoyable user experience. It has seamless experience for mobile and PC and provides a good alternative.
+ADapp is a social media web application designed to facilitate discussions and interactions among users. It is built with modern technologies to provide a seamless and enjoyable user experience. It has seamless experience for mobile and PC and provides a good alternative.
 
 ## Technologies Used
 - **Next.js**: A React framework for building server-rendered applications.
